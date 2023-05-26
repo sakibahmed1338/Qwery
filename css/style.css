@@ -1,0 +1,428 @@
+/* =================================================================common css start=================================================================== */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+/* =================================================================common css end=================================================================== */
+/* =================================================================navbar css start=================================================================== */
+body
+{
+    background-color: #000;
+}
+nav
+{
+    width: 100%;
+    position: absolute;
+    padding: 28px 0px;
+
+}
+.container
+{
+    width: 1320px;
+    margin: 0 auto;
+
+}
+.flex
+{
+    display: flex;
+    align-items: center;
+}
+nav .logo
+{
+    width: 50%;
+    font-size: 24;
+    font-weight: 700;
+}
+nav ul
+{
+    display: flex;
+    column-gap: 60px;
+    width: 50%;
+
+}
+nav ul li a
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    transition: .4s;
+}
+nav ul li a:hover
+{
+    color: #000;
+}
+/* =================================================================navbar css end=================================================================== */
+/* =================================================================hero section css start=================================================================== */
+#banner
+{
+    background-image: url(../img/background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 400px 0px;
+}
+.content p
+{
+    font-size: 18px;
+    font-weight: 700px;
+    letter-spacing: 7px;
+    color: #FFC178;
+    text-transform: uppercase;
+}
+.content h1
+{
+    font-size: 88px;
+    font-weight: 400;
+    text-transform: capitalize;
+    width: 860px;
+    color: #fff;
+
+}
+.content h1 span
+{
+    font-size: 96px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+
+/* =================================================================hero section css end=================================================================== */
+/* =================================================================about us css end=================================================================== */
+.about-us-banner
+{
+    padding-top: 286px;
+    padding-bottom: 295px;
+    display: flex;
+    column-gap: 138px;
+}
+.about-us-img
+{
+    width: 582px;
+    height: 713px;
+}
+.about-us-content
+{
+    padding-top: 78px;
+}
+.about-us-content h3
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.about-us-content h2
+{
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    width: 496px;
+}
+.about-us-content p
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    width: 587px;
+
+}
+.about-us-content a
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    display: inline-block;
+    padding-top: 66px;
+    text-transform: uppercase;
+
+
+}
+
+/* =================================================================about us css end=================================================================== */
+/* =================================================================information css end=================================================================== */
+#information .container
+{
+        background: url(../img/information.jpg) no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 1320px;
+        height: 965px;
+        margin: 0 auto;
+}
+#information .flex
+{
+    display: flex;
+    justify-content: center;
+
+}
+.information-content
+{
+    margin: 559px;
+    padding: 0 auto;
+}
+.information-content h3
+{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+    text-align: center;
+    
+}
+
+.information-content h2
+{
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    width: 932px;
+    margin-top: 13px;
+
+}
+.information-content p
+{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 953px;
+    text-align: center;
+    margin-top: 14px;
+}
+.information-content a
+{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    margin-top:  26px;
+    margin-left: 417px;
+}
+
+
+/* =================================================================information css end=================================================================== */
+/* =================================================================culture css start=================================================================== */
+.culture-banner
+{
+    padding-top: 295px;
+    padding-bottom: 199px;
+    display: flex;
+    column-gap: 37px;
+    flex-direction: row-reverse;
+}
+.culture-img
+{
+    width: 624px;
+    height: 799px;
+}
+.culture-content
+{
+    padding-top: 78px;
+}
+.culture-content h3
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.culture-content h2
+{
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    width: 663px;
+}
+.culture-content p
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    width: 665px;
+    line-height: 32px;
+
+}
+.culture-content a
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    display: inline-block;
+    padding-top: 47px;
+    text-transform: uppercase;
+
+
+}
+
+/* =================================================================culture css end=================================================================== */
+/* =================================================================FOOTER css START=================================================================== */
+.footer-nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+}
+.footer-service
+{
+    display: flex;
+    
+}
+.footer-logo
+{
+    width: 50%;
+
+}
+.footer-btn p 
+{
+    display: inline-block;
+    font-size: 22px;
+    letter-spacing: -.3px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+.footer-btn a
+{
+    display: inline-block;
+    width: 232px;
+    height: 59px;
+    background: #FFA343;
+    color: #000;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 18px 67px;
+    margin-left: 18px;
+    text-transform: capitalize;
+}
+.footer-content
+{
+    margin-top: 82px;
+    
+}
+.footer-content h2
+{
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    width: 405px;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+    margin-bottom: 49px;
+}
+.footer-content a
+{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    color: #fff;
+    margin-bottom: 34px;
+    text-transform: capitalize;
+}
+.footer-icon a i
+{
+    width: 40px;
+    font-size: 24px;
+    color: #fff;
+}
+.service ul
+{
+    margin-left: 275px;
+    margin-top: 82px;
+}
+.service ul li p
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFD1A0;
+    letter-spacing: -.23px;
+    padding-bottom: 18px;
+}
+.service ul li a
+{
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -.2px;
+    padding-top: 10px;
+    display: inline-block;
+    color: #fff;
+}
+.about ul li p
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFD1A0;
+    letter-spacing: -.23px;
+    padding-bottom: 18px;
+}
+.about ul li a
+{
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -.2px;
+    padding-top: 10px;
+    display: inline-block;
+    color: #fff;
+}
+.help ul li p
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFD1A0;
+    letter-spacing: -.23px;
+    padding-bottom: 18px;
+}
+.help ul li a
+{
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -.2px;
+    padding-top: 10px;
+    display: inline-block;
+    color: #fff;
+}
+
+
+.about ul
+{
+    margin-left: 84px;
+    margin-top: 82px;
+}
+.help ul
+{
+    margin-left: 139px;
+    margin-top: 82px;
+}
+.footer-end p
+{
+    color: #D9D9D9;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+/* =================================================================FOOTER css END=================================================================== */
+
